@@ -1,0 +1,12 @@
+font.size: 7.0
+
+axes.spines.top: False
+axes.spines.right: False
+axes.xmargin: 0.0
+axes.ymargin: 0.0
+
+# Colorblind-friendly colors from https://arxiv.org/abs/2107.02270,
+# see also https://github.com/matplotlib/matplotlib/issues/9460.
+# blue, orange, red, purple, gray, violet
+# QIF1, QIF2, _, LIF, target, _
+axes.prop_cycle: cycler(color=["#5790fc", "#f89c20", "#e42536", "#964a8b", "#9c9ca1", "#7a21dd"])
